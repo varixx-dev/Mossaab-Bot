@@ -9,7 +9,7 @@ module.exports = {
 		if(message.author.bot) return;
 
         message.delete()
-		let ticketinfo = new Discord.MessageEmbed()
+	let ticketinfo = new Discord.MessageEmbed()
             .setTitle('Maak een ticket! :ticket:')
             .setDescription(`Maak een ticket door op de :ticket: reactie hieronder te klikken!`)
             .setColor(embedcolor)
