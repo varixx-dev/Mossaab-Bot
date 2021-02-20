@@ -3,7 +3,7 @@ const path = require('path');
 const Discord = require('discord.js');
 const client = new Discord.Client()
 const { prefix, embedcolor } = require('./package.json')
-let welcomechannel = "123456789123456789" // Verander dit in het kanaal waar je de welkom in wilt hebben.
+let welcomechannel = "123456789123456789" // Verander dit in het ID van het kanaal waar je de welkom in wilt hebben.
 
   client.on('ready', () => {
     console.log('I am ready!');
