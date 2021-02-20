@@ -8,7 +8,7 @@ module.exports = {
 	async execute(client, message) {
 		if(message.author.bot) return;
 
-		let ticketverwijderd = new Discord.MessageEmbed()
+	let ticketverwijderd = new Discord.MessageEmbed()
             .setTitle('Ticket Word Verwijderd! :wastebasket:')
             .setDescription(`Je ticket is gepland voor verwijdering door ${message.member}. Reageer met 🗑️ om de ticket te sluiten.`)
             .setColor(embedcolor)
