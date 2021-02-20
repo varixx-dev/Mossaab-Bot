@@ -1,0 +1,18 @@
+{
+    "name": "discordbot",
+    "version": "1.0.0",
+    "description": "A Discord bot.",
+    "prefix": "-",
+    "embedcolor": "#F51616",
+    "welcomechannel": "123456789123456789",
+    "ticketperms": "812396640009715802",
+    "ticketcategory": "812733313797586997",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "discord.js": "^12.5.1",
+        "fs": "^0.0.1-security"
+    }
+}
