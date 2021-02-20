@@ -4,9 +4,9 @@
     "description": "A Discord bot.",
     "prefix": "-",
     "embedcolor": "#F51616",
-    "welcomechannel": "123456789123456789",
-    "ticketperms": "812396640009715802",
-    "ticketcategory": "812733313797586997",
+    "welcomechannel": "123456789123456789", // Verander dit in het ID van het kanaal waar je de welkom in wilt hebben. (En verwijder deze info)
+    "ticketperms": "123456789123456789", // Verander dit in het ID van de role die je toegang wilt geven om te praten in alle tickets. (En verwijder deze info)
+    "ticketcategory": "123456789123456789", // Verander dit in het ID van de categorie waar je de tickets in wilt hebben. (En verwijder deze info)
     "main": "index.js",
     "scripts": {
         "start": "node index.js"
