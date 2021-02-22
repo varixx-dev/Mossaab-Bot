@@ -4,7 +4,7 @@ const { modlog, embedcolor, prefix } = require('../package.json')
 module.exports = {
 	name: 'mute',
 	description: 'Mute een lid.',
-	usage: `${prefix}mute @User <Reden>`,
+	usage: `${prefix}mute [Tijd in minuten (0 voor onbeperkt)] @User <Reden>`,
 
 	async execute(client, message, args) {
 		if(message.author.bot) return;
