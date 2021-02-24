@@ -32,7 +32,7 @@ module.exports = {
 			.setTimestamp()
 	
 		let unbanlogembed = new Discord.MessageEmbed()
-			.setTitle(`Verbanning Opgeheven - ${user}`)
+			.setTitle(`Verbanning Opgeheven - ${bannedusername}#${banneddiscriminator}`)
 			.addField('Gebruiker', username, true)
 			.addField('Moderator', message.author, true)
 			.addField('Reden voor ontbanning', reason, true)
