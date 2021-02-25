@@ -1,0 +1,16 @@
+{
+    "name": "discordbot",
+    "version": "1.0.0",
+    "description": "A Discord bot.",
+    "prefix": "-",
+    "embedcolor": "#F51616",
+    "modlog": "123456789123456789",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "discord.js": "^12.5.1",
+        "fs": "^0.0.1-security"
+    }
+}
